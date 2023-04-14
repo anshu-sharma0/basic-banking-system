@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    background-color: white;
+    background-size: cover;
+    font-family: "Montserrat";
+    z-index: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    transition: 0.3;
+  }
+  a:hover {
+    color: white;
+  }
+  
+  body.customer {
+    padding: 0;
+    background: url("../images/bank4.jpg");
+    background-size: cover;
+    font-family: "Montserrat";
+    text-align: center;
+    z-index: 0;
+  }
+  
+  
+  /* COMMON CONTAINER */
+  
+  .container-fluid {
+    padding: 2% 5%;
+  }
+  
+  .navbar-heading {
+    color: #112d4e;
+  }
+  .nav-item .nav-link {
+    transition: 0.3s;
+    font-weight: 500;
+  }
+  
+  .navbar-brand {
+    text-align: center;
+  }
+  
+  .nav-link:hover {
+    color: #3282b8 !important;
+  }
+  
+  /* INDEX MAIN  */
+  .carousal-image {
+    height: 600px;
+    width: auto;
+  }
+  .carousal-image2 {
+    height: 600px;
+    width: 750px;
+  }
+  
+  .heading1 {
+    margin: 100px 0 50px 100px;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .main-text-1 {
+    font-size: 1.2rem;
+    margin: 0 0 50px 100px;
+  }
+  .btn-caroual1 {
+    margin-left: 100px;
+  }
+  .main-text-2 {
+    font-size: 1.2rem;
+    margin: 160px 100px 50px 0;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 3%;
+  }
+  
+  /* BACKGROUND'S POSITION FOR CUSTOMER */
+  .bg-text1 {
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+  }
+  
+  .bg-table {
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 1);
+    color: Black;
+    border: 1px solid #f1f1f1;
+    width: 100%;
+  }
+  
+  .filled {
+    color: #f1f1f1;
+    font-weight: 800;
+    background-color: #00ccff;
+  }
+  #footer {
+    background-color: #112d4e;
+    color: #fff;
+    padding: 1% 15%;
+    text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .-icon {
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0.6;
+  }
+  
+  .social-icon:hover {
+    opacity: 0.9;
+  }

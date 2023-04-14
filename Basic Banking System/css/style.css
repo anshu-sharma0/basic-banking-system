@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: white;
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  .nav-item .nav-link {
+    transition: 0.3s;
+    font-weight: 500;
+  }
+  
+  .nav-link:hover {
+    color: #3282b8 !important;
+  }
+  
+  .navbar-toggler {
+    outline: none !important;
+  }
+  
+  .container h1 img {
+    padding-bottom: 10px;
+  }
+  
+  /* FEATURES */
+  #features {
+    text-align: center;
+    padding: 3% 15%;
+  }
+  
+  .features h3 {
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+  }
+  
+  .title {
+    color: #112d4e;
+    font-size: 3rem;
+  }
+  
+  .feature-icon {
+    padding: 20px 0;
+  }
+  
+  .feature-icon:hover {
+    color: #3282b8;
+  }
+  
+  .feature-title {
+    color: #112d4e;
+    padding-bottom: 20px;
+  }
+  
+  /* CTA */
+  #CTA {
+    padding: 3% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  /* footer */
+  #footer {
+    background-color: #112d4e;
+    color: #fff;
+    padding: 1% 15%;
+    text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  .social-icon {
+    color: white;
+    font-size: 1.5rem;
+    opacity: 0.6;
+  }
+  
+  .social-icon:hover {
+    opacity: 0.9;
+  }
